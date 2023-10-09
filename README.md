@@ -21,5 +21,28 @@ npm run dev
 3.Commit your changes (git commit -am 'Add some feature')
 4.Push to the branch (git push origin feature/your-feature)
 
+## Git tutorial
+Setup git, clone the remote repository to your local system and add the remote repository 
+```
+git clone https://github.com/bhaveshsirvi/Techligence
+cd Techligence
+git config --global user.name "Your Username"
+git config --global user.email "youremail@example.com"
+git remote add origin https://github.com/bhavesh1729/Techligence.git
+```
+Keep the local repository up to date with the remote repository
+```
+git pull origin
+```
+Create and checkout to a new branch named "feature/feature-name"
+```
+git checkout -b feature/feature-name
+```
+Make changes and be ready to 
+```
+git add .
+git commit -m "Your message"
+
+```
 
 
