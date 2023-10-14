@@ -12,7 +12,7 @@ function App() {
         <BlocklyComponent />
       </main>
     </div>
-  );
+  )
 }
 
 export default App;
