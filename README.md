@@ -1,5 +1,5 @@
 # Techligence
-Logicblocks: A Blockly-Based Application🎮
+Logicblocks: A Blockly-Based Application🎮.
 Logicblocks is a web application designed to provide a Blockly-based interface for learning and building block-based code. This application is built with ReactJS and integrates Google's Blockly library.
 
 Before starting ensure the following pre-requisites are met, if not you can download them from the link below.
@@ -27,7 +27,7 @@ npm run dev
 
 If you encounter any errors, make sure you have the latest versions of Node.js and npm, and try running the commands again.
 
-If that still does not work [contact us](mailto:bhaveshsirvi876@gmail.com).
+If that still does not work [contact us](mailto:bhaveshsirvi876@gmail.com) 📧.
 
 
 ## Contributing👩‍💻👨‍💻
@@ -97,7 +97,8 @@ Nearly there! 🌈
 
 ### Creating a Pull Request🤝
 To let use us know that you are done just start a new pull request from your github account which should be visible as such 
-![image](https://github.com/bhaveshsirvi/Techligence/assets/79744815/ac428199-9ee5-459b-afc2-be053c4b3d55)
+![image](https://github.com/bhaveshsirvi/Techligence/assets/79744815/ac428199-9ee5-459b-afc2-be053c4b3d55) .
+
 Follow the steps and write a short description about your feature this will count as your final submission.
 
 You're all done! Now, sit back, relax ☕, and await your next task or feedback in case there are some issues with your work.
