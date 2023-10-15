@@ -1,18 +1,21 @@
-import React from 'react';
-import './App.css';
-import BlocklyComponent from './BlocklyComponent';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import { store } from "./store/store";
+import { Provider } from "react-redux";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Logicblocks</h1>
-      </header>
-      <main>
-        <BlocklyComponent />
-      </main>
+      <Provider store={store}>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </BrowserRouter>
+      </Provider>
     </div>
-  )
+  );
 }
 
 export default App;
